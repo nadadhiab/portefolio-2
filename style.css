@@ -1,0 +1,266 @@
+/*_h2{
+    text-align: center;
+    text-decoration: underline;
+    span{
+        color: red;
+        font-size: 100px;
+
+    }
+    color: aliceblue;
+    font-size: 80px;
+
+}
+div{
+    background-color: black;
+    text-align: center;
+    border-radius: 10px;
+    height:60%;
+}
+p{
+    color: aliceblue;
+    text-align: center;
+    border-color:red;
+    border-style: solid;
+    font-size: 60px;
+}
+button{
+    font-size: 30px;
+    border-color:aliceblue;
+    color:aliceblue;
+    background-color: red;
+    border-radius: 10px;
+    width: 200px;
+    height:80px;
+    
+
+} */
+
+
+
+/*nav{
+    background-color: grey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px; 
+    height: 70px;
+}
+nav img{
+    
+    width: 200px;
+    height: 40px;
+}
+ul{
+  
+    color: aliceblue;
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    font-size: 25px;
+    text-transform: capitalize;
+    font-variant: small-caps;
+    text-shadow: 2px 2px 2px black;
+    
+
+}
+
+.content{
+    background-color: gray;
+    color: aliceblue;
+    display: flex;
+  
+    justify-content: space-between;
+    padding: 0 50PX;
+    margin: 20px 10px;
+    border-radius: 10px;
+    height: 300px;
+    padding: 30px;
+    box-shadow: 2px 2px 7px black;
+}
+.content div{
+   width: 50%;
+  
+}
+.content div p{
+    line-height: 2rem;
+    word-spacing: 5px;
+}
+
+.content h3{
+    line-height: 2rem;
+    word-spacing: 5px;
+}
+.image{
+    display: flex;
+    justify-content: end;
+    
+}*/
+
+
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgba(139, 0, 0, 0.562);
+    padding: 30px;
+   font-size: 20px;
+    
+
+}
+ nav ul{
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    align-items: center;
+    
+    
+}
+nav a{
+    text-decoration: none;
+    color: white;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+   align-items: center;
+    background-color:rgba(139, 0, 0, 0.562) ;
+    color: white;
+    height: 370PX;
+    border-bottom-right-radius: 250px;
+
+
+}
+header a{
+    text-decoration: none;
+    color:beige;
+
+
+}
+header img{
+    height:350px;
+    object-fit: scale-down;
+   
+}
+.information{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+    font-size: 250%;
+
+}
+.introduction{
+    background-color: rgba(165, 42, 42, 0.386);
+    padding: 10px 15px;
+   
+    border-radius: 10px;
+  
+}
+ul li a:hover{
+    color: beige;
+}
+.down{
+    background-color:rgba(165, 42, 42, 0.386) ;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+h3{
+    text-align: center;
+    color: rgba(165, 42, 42, 0.386);
+    font-size: 2rem;
+}
+section ul {
+    list-style-type: none;
+    font-size: 150%;
+    text-align: center;
+    padding: 10px;
+    
+}
+b{
+    color:indianred;
+}
+section h2{
+   color:rgba(165, 42, 42, 0.386) ;
+
+}
+section{
+    padding: 20px;
+}
+main{
+    display: flex;
+    height: 400px;
+    gap: 20px;
+    background-color:rgba(205, 92, 92, 0.251) ;
+    border-top-left-radius: 250px;
+    border-bottom-right-radius: 250px;
+    padding: 70px;
+
+
+
+}
+    main  form{
+        display: grid;
+    width:50%;
+    gap: 10px;
+    font-size: 20PX;;
+    position: relative;
+    
+
+    
+    
+}
+main h1{
+    color:rgba(165, 42, 42, 0.386) ;
+}
+ main button{
+    background-color:rgba(165, 42, 42, 0.386) ;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 15px;
+    position: absolute;
+    bottom: -7%;
+    transition: all 1.0s ease;
+    color: white;
+    cursor: pointer;
+    
+} 
+main button:hover{
+    bottom: -6%;
+}
+main  form div{
+    display: flex;
+    flex-direction: column;
+}
+main h3{
+    text-align: center;
+}
+main a{
+    text-decoration: none;
+    color: rgba(165, 42, 42, 0.638);
+}
+input,textarea{
+    width: 50%;
+    height: 40px;
+}
+div .reviews{
+    background-color: rgba(205, 92, 92, 0.544);
+    color: white;
+    gap: 30px;
+    padding: 20px;
+    border-radius: 30px
+    
+    
+}
+.reviews h2 h3{
+    color:rgba(165, 42, 42, 0.638) ;
+}
+div main{
+    gap: 20px;
+}
